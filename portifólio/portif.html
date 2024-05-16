@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio Luisa Lara</title>
+    <link rel="shortcut icon" type="imagex/png" href="img/logo portifolio.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body div class="bg-repeat bg-slate-700"></div>  
+    <!-- Header -->
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById('menu');
+            menu.classList.toggle('hidden');
+        }
+    </script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <header class="text-white p-3 bg-slate-700">
+        <div class="container mx-auto flex justify-between items-center">
+            <!-- Logo -->
+            <div class="shadow p-1  m-1">
+            <img src="img/logo portifolio.png" class="size-32 md:size-36 lg: size-29 "></div>
+
+            <!-- Botão do menu  -->
+            <button onClick="toggleMenu()" class="md:hidden focus:outline-none size-10 ">
+                <!-- Três barrinhas para o menu -->
+                <div class=" space-y-1">
+                    <div class="w-6 h-1 bg-white"></div>
+                    <div class="w-6 h-1 bg-white"></div>
+                    <div class="w-6 h-1 bg-white"></div>
+                </div>
+            </button>
+
+            <!-- Menu de navegação -->
+            <nav id="menu" class="hidden md:block ">
+                <ul class="flex flex-col md:flex-row md:space-x-6 space-y-4 md:space-y-0">
+                    <li><a href="#projetos" class="font-bold text-2xl hover:text-fuchsia-500">Início</a></li>
+                    <li><a href="#habilidades" class="font-bold text-2xl hover:text-fuchsia-500">Sobre</a></li>
+                    <li><a href="#contato" class="font-bold text-2xl hover:text-fuchsia-500">Habilidades</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <header>
+        <div  class="w-full bg-cover bg-center bg-black">
+            <div class="flex items-center justify-center h-full w-full bg-gray-900 bg-opacity-50">
+                <div class="text-center">
+                    <div class="flex ">
+                       
+                        <div>
+                            <div class="text-center">
+                            <!-- Moldura redonda -->
+                            <div class="rounded-full border-4 border-fuchsia-500 w-32 h-32 sm:w-40 sm:h-40 lg:w-68 lg:h-68 overflow-hidden mx-auto mb-4">
+                            
+                                <!-- Imagem dentro da moldura -->
+                                <img src="img/Design sem nome.png" alt="Minha Foto" class="w-full h-full object-cover">
+                            </div>
+                    
+                            <!-- Descrição abaixo da moldura -->
+                            <div class="space-y-1">
+                                <p class="text-lg text-fuchsia-500 font-semibold sm:text-2xl lg:text-2xl">Luisa Lara</p>
+                                <p class="text-sm text-white sm:text-2xl lg:text-2xl">luisa.silva19@aluno.ce.gov.br</p>
+                                <p class="text-sm text-2xl text-fuchsia-500 font-bold sm:text-base lg:text-3xl">Técnico em Informática</p>
+                            </div>
+                        </div>
+                                    <!-- Logos alinhadas -->
+            <div class="flex justify-center space-x-6 mt-4">
+                <!-- GitHub -->
+                <a href="https://github.com" target="_blank" class="w-6 h-6 sm:w-8 sm:h-8 lg:w-10 lg:h-10 text-slate-700 hover:text-white">
+                    <!-- Ícone do GitHub -->
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 0C5.373 0 0 5.373 0 12a12 12 0 008.205 11.437c.6.113.82-.263.82-.582 0-.288-.013-1.228-.013-2.228-3.338.725-4.042-1.625-4.042-1.625-.546-1.388-1.334-1.758-1.334-1.758-1.087-.75.082-.737.082-.737 1.205.084 1.838 1.238 1.838 1.238 1.07 1.825 2.807 1.297 3.493.993.107-.788.42-1.297.763-1.596-2.665-.3-5.467-1.333-5.467-5.93 0-1.31.468-2.383 1.235-3.22-.124-.302-.54-1.512.115-3.155 0 0 1.007-.322 3.3 1.225a11.48 11.48 0 013.004-.404c1.02.006 2.042.137 3.003.404 2.295-1.547 3.302-1.225 3.302-1.225.655 1.643.238 2.853.115 3.155.769.837 1.234 1.91 1.234 3.22 0 4.61-2.805 5.624-5.48 5.92.43.372.813 1.103.813 2.223 0 1.605-.013 2.897-.013 3.287 0 .32.22.706.827.582A12 12 0 0024 12C24 5.373 18.627 0 12 0z"/>
+                    </svg>
+                </a>
+
+                <!-- Twitter -->
+                <a href="https://twitter.com" target="_blank" class="w-6 h-6 sm:w-8 sm:h-8 lg:w-10 lg:h-10 text-slate-700 hover:text-white">
+                    <!-- Ícone do Twitter -->
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M23.643 4.937c-.835.37-1.73.621-2.675.733.961-.576 1.698-1.486 2.048-2.575-.9.534-1.895.922-2.958 1.13-.848-.902-2.054-1.467-3.39-1.467-2.564 0-4.646 2.079-4.646 4.646 0 .364.041.72.12 1.061-3.862-.193-7.286-2.043-9.582-4.852-.399.68-.628 1.471-.628 2.314 0 1.596.814 3.005 2.05 3.829-.757-.024-1.468-.232-2.09-.579v.059c0 2.229 1.585 4.089 3.686 4.512-.386.104-.794.161-1.215.161-.296 0-.584-.028-.865-.082.584 1.823 2.28 3.153 4.287 3.188-1.573 1.234-3.554 1.97-5.705 1.97-.37 0-.736-.021-1.097-.064 2.038 1.306 4.462 2.068 7.068 2.068 8.484 0 13.119-7.029 13.119-13.119 0-.2-.004-.403-.013-.604.9-.65 1.676-1.46 2.293-2.386z"/>
+                    </svg>
+                </a>
+
+                <!-- Instagram -->
+                <a href="https://instagram.com" target="_blank" class="w-6 h-6 sm:w-8 sm:h-8 lg:w-10 lg:h-10 text-slate-700 hover:text-white">
+                    <!-- Ícone do Instagram -->
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 2.163c3.204 0 3.584.012 4.85.07 1.206.055 1.86.246 2.292.411.577.217.99.476 1.412.899.422.422.682.835.899 1.412.165.432.356 1.086.411 2.292.058 1.267.07 1.647.07 4.85s-.012 3.584-.07 4.85c-.055 1.206-.246 1.86-.411 2.292-.217.577-.476.99-.899 1.412-.422.422-.835.682-1.412.899-.432.165-1.086.356-2.292.411-1.267.058-1.647.07 4.85 4.85-.058-.05-3.584-.07-4.85-.07-4.85-.07-4.85-.07-4.85-.07-4.85-.07-4.85-.07-4.85-.07-4.85-.07-4.85-.07-4.85-.07-4.85-.07-4.85-.07-.07-.07-.07-3.584-1.067-2.292-1.412-.432-.577-.217-.99-.246-.555-4.85-1.647-4.85-1.647-4.85-4.85-4.85-4.85-4.85-4.85-4.85-4.85-4.85-4.85-4.85-4.85-4.85-4.85-4.85-4.85-4.85-4.85-1.647-4.85-4.85 1.08 3.204 0-4.85 4.85 1.22"/>
+                    </svg>
+                </a>
+                </div>
+                     <!-- Ícone de Seta para Baixo -->
+        <div class="flex justify-center mt-10">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-35 h-12 text-white " fill="currentColor" viewBox="0 0 24 24">
+                <path d="M12 14l6-6H6z"/>
+            </svg>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    </header>
+
+    <!-- Corpo do site -->
+    <main class="container mx-auto text-center">
+        <!-- Seção Sobre -->
+        <section id="sobre" class="mb-12">
+            .
+            <p>
+            <h2  class="text-4xl text-fuchsia-500 font-black mb-4">Sobre</h2>
+            </p>
+            <p class="text-gray-300 text-3xl">Olá!! Eu me chamo Luisa Lara sou estudante do curso Técnico de informática, aspirante a desenvolvedora web. Neste
+                postifólio você poderá conhecer mais das minhas especialidades como programador de TI. 
+            </p>
+        </section>
+        </main>
+</body>
+    <body>
+       <!-- Seção com Quadros de Ícones -->
+    <section class="grid justify-items-center mb-4 bg-cover " style="background-color: black ;">
+        
+        <p>
+        <h2  class="text-4xl text-fuchsia-500 font-black mb-4">Interesses</h2>
+        </p>
+
+        <div class="mx-auto py-4 grid grid-cols-2 md:grid md:grid-cols-3  grid justify-items-center flex flex-col ">
+            <div class="bg-white rounded-md shadow p-4 size-26 lg:size-36 m-4 hover:bg-red-600">
+                <img src="img/games p.png">
+                <p>
+                <h2  class="flex justify-center text-3xl text-fuchsia-500 font-bold mb-4">Games
+                </h2>
+                </p>
+            </div>
+            <div class="bg-white rounded-md shadow p-4 size-26 lg:size-36 m-4 hover:bg-red-600">
+                <img src="img/computaçao.png">
+                <p>
+                <h2  class=" flex justify-center text-3xl text-fuchsia-500 font-bold mb-4">programação</h2>
+                </p>            
+            </div>
+            
+            <div class="bg-white rounded-md shadow p-4 size-26 lg:size-36 m-4 hover:bg-red-600">
+                <img src="img/esportes.png">
+                <h2  class="flex justify-center text-3xl text-fuchsia-500 font-bold mb-4">Esportes</h2>
+            </div>
+
+            <div class="bg-white rounded-md shadow p-4 size-26 lg:size-36 m-4 hover:bg-red-600">
+                <img src="img/musica.png">
+                <h2  class="flex justify-center text-3xl text-fuchsia-500 font-bold mb-4">Música</h2>
+            </div>
+
+            <div class="bg-white rounded-md shadow p-4 size-26 lg:size-36 m-4 hover:bg-red-600">
+                <img src="img/filmes.png">
+                <p>
+                <h2  class=" flex justify-center text-3xl text-fuchsia-500 font-bold mb-4">filmes</h2>
+                </p>            
+            </div>
+            <div class="bg-white rounded-md shadow p-4 size-26 lg:size-36 m-4 hover:bg-red-600">
+                <img src="img/socializar.png">
+                <p>
+                <h2  class=" flex justify-center text-3xl text-fuchsia-500 font-bold mb-4">socializar</h2>
+                </p>            
+            </div>
+        </div>
+    </section>   
+   <!-- HABILIDADES -->
+   <section class=" w-full md:grid grid-cols-2 justify-items-center pb-8 md:pb-24 bg-black">
+    <p class="col-span-2 text-center text-fuchsia-500 font-black text-4xl py-4"> Habilidades </p>
+
+    <!-- 1° BARRA -->
+    <section class="w-full md:px-8 pt-4 bg-black" >
+        <p class="text-center text-gray-200 font-bold text-2xl"> Frontend </p>
+
+        <div class="mt-3">
+            <div class="flex justify-between mb-1 ml-6">
+                <span class="text-base font-medium text-red-900 dark:text-white">Javascript</span>
+            </div>
+            <div class="grid justify-items-center">
+                <div class="w-11/12 bg-gray-200 rounded-full dark:bg-gray-700">
+                    <div class="bg-fuchsia-700 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full" style="width: 60%"> 60% </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-4">
+            <div class="flex justify-between mb-1 ml-6">
+                <span class="text-base font-medium text-violet-900 dark:text-white">CSS</span>
+            </div>
+            <div class="grid justify-items-center">
+                <div class="w-11/12 bg-gray-200 rounded-full dark:bg-gray-700">
+                    <div class="bg-fuchsia-700 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full" style="width: 85%"> 85% </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-4">
+            <div class="flex justify-between mb-1 ml-6">
+                <span class="text-base font-medium text-violet-900 dark:text-white">HTML</span>
+            </div>
+            <div class="grid justify-items-center">
+                <div class="w-11/12 bg-gray-200 rounded-full dark:bg-gray-700 mb-4">
+                    <div class="bg-fuchsia-700 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full" style="width: 79%"> 79% </div>
+                </div>
+            </div>
+        </div>     
+    </section>
+
+    <!-- 2° BARRA -->
+    <section class="w-full  md:px-8 pt-4 bg-black" >
+        <p class="text-center text-gray-200 font-bold text-2xl"> Backend </p>
+
+        <div class="mt-3">
+            <div class="flex justify-between mb-1 ml-6">
+                <span class="text-base font-medium text-violet-900 dark:text-white">Javascript</span>
+            </div>
+            <div class="grid justify-items-center">
+                <div class="w-11/12 bg-gray-200 rounded-full dark:bg-gray-700">
+                    <div class="bg-fuchsia-700 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full" style="width: 60%"> 60% </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-4">
+            <div class="flex justify-between mb-1 ml-6">
+                <span class="text-base font-medium text-violet-900 dark:text-white">AWS</span>
+            </div>
+            <div class="grid justify-items-center">
+                <div class="w-11/12 bg-gray-200 rounded-full dark:bg-gray-700">
+                    <div class="bg-fuchsia-700 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full" style="width: 25%"> 25% </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-4">
+            <div class="flex justify-between mb-1 ml-6">
+                <span class="text-base font-medium text-violet-900 dark:text-white">Banco de Dados</span>
+            </div>
+            <div class="grid justify-items-center">
+                <div class="w-11/12 bg-gray-200 rounded-full dark:bg-gray-700 mb-4">
+                    <div class="bg-fuchsia-700 text-xs font-medium text-violet-50 text-center p-0.5 leading-none rounded-full" style="width: 54%"> 54% </div>
+                </div>
+            </div>
+        </div>   
+        </section>
+   </section>  
+    <!-- Rodapé -->
+    <footer class="bg-black text-white p-6 text-center">
+        &copy; 2024 Luisa Lara-Informática - g7. Todos os direitos reservados.
+    </footer>
+</section>
+</body>
+</html>
